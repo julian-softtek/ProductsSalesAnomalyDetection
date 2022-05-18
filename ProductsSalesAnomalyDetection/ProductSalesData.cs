@@ -3,11 +3,11 @@ namespace ProductsSalesAnomalyDetection
 {
     public class ProductSalesData
     {
-        [LoadColumn(0)]
+       // [LoadColumn(0)]
         public string Month;
 
-        [LoadColumn(1)]
-        public float numSales;
+       // [LoadColumn(1)]
+        public float ProductSales;
     }
 
     public class ProductSalesPrediction
